@@ -71,7 +71,7 @@ export const NavBar = ()=>
                         </span>
                     </a></div>
 
-                    <div className="max-sm:hidden navbar-animation z-50 navshadow space-x-2  rounded-full p-1 ">
+                    <div className="max-sm:hidden bg-white dark:bg-white/5 navbar-animation z-50 outline-1 -outline-offset-1 outline-gray-300 dark:outline-white/10 space-x-2  rounded-full p-1 ">
                         {NavItems.map(items =>
                             (
                                 <a href={`${items.href}`} className="px-3  hover:text-primary hover:font-semibold  rounded-full fill-indigo-500 drop-shadow-lg drop-shadow-indigo-500/40 duration-400 "  onClick={setIsScrolled} >{items.name}</a>
