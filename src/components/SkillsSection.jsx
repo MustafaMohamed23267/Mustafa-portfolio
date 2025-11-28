@@ -36,7 +36,7 @@ export const SkillsSection = ()=>
                 </h2>
 
 
-                <div className=" flex flex-wrap space-x-4 justify-center mt-6 mb-6">
+                <div className=" flex  space-x-4 justify-center mt-6 mb-6">
                     {categories.map((category,key)=><button 
                     onClick={()=>setActivecategory(category)}
                     className={` px-5 py-2 ${activecategory===category? " bg-gray-500 rounded-full" : "bg-primary rounded-full hover:bg-primary/50 hover:animate-pulse"}`}

@@ -6,16 +6,16 @@ import { BsWhatsapp } from "react-icons/bs"
 export const ContactSection = ()=>
     {
         return(
-            <section id="contact" className="py-24 px-50 my-10 ">
+            <section id="contact" className="py-24 md:px-50 max-sm:px-5 my-10 ">
                 <div className="text-center text-2xl md:text-3xl font-bold  space-y-8">
                     <h1> <span className="text-primary ">Contact</span> me</h1>
 
-                    <div className=" grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className=" grid max-sm:grid-cols-1 md:grid-cols-2 gap-6">
                         <div className=" space-y-15 py-6 z-40" >
                           <h2 className="text-3xl font-semibold">Contact Information</h2>
 
                                  {/* my email ,phone , location  */}
-                                <div className="space-y-4">
+                                <div className="space-y-4 max-sm:space-y-8">
 
                                   <div className="grid grid-cols-4 ">
                                      <div className=""><BsWhatsapp className="animate-bounce bg-card size-[30px] p-1 rounded-full text-primary "/></div>
@@ -26,7 +26,7 @@ export const ContactSection = ()=>
                                      </div>   
                                    </div>
                                      {/*  */}
-                                    <div className="grid grid-cols-4">
+                                    <div className="grid grid-cols-4 max-sm:grid-cols-2">
                                       <div className=""><Mail className="animate-bounce bg-card size-[30px] p-1 rounded-full text-primary " /></div>
                                       <div className="flex flex-col text-sm">
                                         <span>mail:</span>
@@ -67,7 +67,7 @@ export const ContactSection = ()=>
                                 </div>
 
                         {/*  */}
-                        <div className="bg-card z-40 shadow-xs rounded-xl py-6 md:px-20 px-4 max-sm:w-[380px] max-sm:ml-[-50px] space-y-4">
+                        <div className="bg-card z-40 shadow-xs rounded-xl py-6 md:px-20 px-4 w-full  space-y-4">
                            <h2 className="text-3xl font-semibold">Contact Form</h2>
                             <form className="space-y-4 ">
                                 <div className="text-md">
