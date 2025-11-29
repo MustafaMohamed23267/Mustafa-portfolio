@@ -16,7 +16,7 @@ export const HeroSection = ()=>{
                 </a>
             </div>
         </div>
-        <div className="absolute bottom-8 left-1/2 transform-translate-x-1/2 animate-bounce flex flex-col ">
+        <div className="absolute bottom-8 left-1/2 transform-translate-x-1/2 animate-bounce flex flex-col max-sm:left-55 ">
         <span className="text-indigo-700 text-lg ">Scroll</span>
         <ArrowDownCircleIcon className=" ml-2 text-indigo-700"/>
         </div>

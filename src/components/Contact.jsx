@@ -26,7 +26,7 @@ export const ContactSection = ()=>
                                      </div>   
                                    </div>
                                      {/*  */}
-                                    <div className="grid grid-cols-4 max-sm:grid-cols-2">
+                                    <div className="grid grid-cols-4 ">
                                       <div className=""><Mail className="animate-bounce bg-card size-[30px] p-1 rounded-full text-primary " /></div>
                                       <div className="flex flex-col text-sm">
                                         <span>mail:</span>
