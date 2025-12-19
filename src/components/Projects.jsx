@@ -1,6 +1,6 @@
 import { Github, GithubIcon } from "lucide-react";
 import ecommerce from "../assets/ecommerce.jpg"
-import learning from "../assets/learning.png"
+import learning from "../assets/edufree.png"
 import pharmacy from "../assets/pharmacy.jpeg"
 
 
@@ -27,7 +27,7 @@ const myprojects=[
         img:ecommerce
     },
      {
-        name:"Learning",
+        name:"E-Learning",
         tools:[
             {
                 name:"PHP"
@@ -89,7 +89,7 @@ export const ProjectsSection =()=>
                                 <img className="w-full h-[250px]" src={project.img}/>
                                 <div className="flex flex-col space-y-3">
                                     <h2 className="font-semibold text-lg">{project.name}</h2>
-                                        <div className="space-x-2 flex flex-wrap">
+                                        <div className="space-x-2 flex justify-center flex-wrap">
                                         {project.tools.map((tool,key)=><span key={key} className="bg-primary p-2 rounded-full">{tool.name}</span>)}
                                         </div>
                                     <span>{project.desc}</span>
