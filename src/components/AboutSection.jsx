@@ -1,5 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react"
-import cv from "../assets/cv.pdf"
+import mustafa from '../assets/m2.jpg';
 
 export const AboutSection = ()=>
     {
@@ -9,22 +9,25 @@ export const AboutSection = ()=>
                 <h2 className="text-3xl font-bold text-center">
                     About <span className="text-primary">Mustafa</span>
                 </h2>
+                <div className="flex justify-center py-2 ">
+                    <img src={mustafa} className="w-50 h-50 rounded-full " />
+                </div>
 
  <div className="grid grid-col-2 md:grid-cols-2 gap-12 text-center pt-6 ">
             <div className="space-y-6 ml-2">
-                <h3 className="text-2xl font-semibold">Passionate Fullstack Web Developer</h3>
+                <h3 className="text-2xl font-semibold">Fullstack Web Developer</h3>
                 <p className="text-foreground text-sm">
-                    i am a very ambition fullstack web developer i have passion and dedication to do something great at my work and leave my name in this world 
+                    Full-Stack Web Developer with strong experience in building modern, responsive web applications. Skilled in HTML, CSS, PHP, Laravel, React.js, Tailwind CSS, RESTful APIs, and MySQL.
                 </p>
                 <p className="text-foreground text-sm">
-                    i have learned HTML, CSS, Tailwindcss, Reactjs and JaveScript as frontend developer and also i have learned PHP, Laravel, MYSQL and Rest API as backend developer 
+                    I specialize in developing scalable backend systems with Laravel and creating dynamic, user-friendly interfaces using React.
                 </p>
                 <p className="text-foreground text-sm">
-                    i have made projects like an E-Commerce website using react and laravel and Rest Api 
+                Experienced in database design, API integration, authentication, and performance optimization. Passionate about clean code, problem-solving, and continuously learning new technologies to deliver high-quality web solutions.               
                 </p >
                 <div className="space-x-4">
-                    <a href={cv} download className="cosmic">Contact me</a>
-                    <a className="border border-indigo-500 rounded-full p-2 hover:bg-indigo-500 hover:text-white text-indigo-500  shadow hover:shadow-2xl duration-300 cursor-pointer">Download my CV</a>
+                    <a href="#contact" className="cosmic">Contact me</a>
+                    <a href="../../public/mycv.pdf" download className="border border-indigo-500 rounded-full p-2 hover:bg-indigo-500 hover:text-white text-indigo-500  shadow hover:shadow-2xl duration-300 cursor-pointer" >Download my CV</a>
                 </div>
                 </div>
                 
@@ -37,9 +40,9 @@ export const AboutSection = ()=>
                         </div>
                         <div className="text-left">
                             <h3 className="text-xl text-card2">
-                                Web Evelopment
+                                Front end Development
                             </h3>
-                            <p className="text-card2">php , laravel and MYSQl</p>
+                            <p className="text-card2 dark:text-gray-400">Building responsive, modern interfaces with HTML, CSS, Tailwind, and React.</p>
                         </div>
                       </div>  
 
@@ -49,9 +52,9 @@ export const AboutSection = ()=>
                         </div>
                         <div className="text-left ">
                             <h3 className="text-xl text-card2">
-                                Web Evelopment
+                                Back end Development
                             </h3>
-                            <p className="text-card2">php , laravel and MYSQl</p>
+                            <p className="text-card2 dark:text-gray-400">Developing secure, scalable systems using PHP, Laravel, APIs, and databases.</p>
                         </div>
                       </div>  
 
@@ -61,9 +64,11 @@ export const AboutSection = ()=>
                         </div>
                         <div className="text-left">
                             <h3 className="text-xl text-card2">
-                                Web Evelopment
+                                Project Management
                             </h3>
-                            <p className="text-card2 ">php , laravel and MYSQl</p>
+                            <p className="text-card2 dark:text-gray-400">
+                                Planning, organizing, and delivering projects efficiently from start to finish.
+                            </p>
                         </div>
                       </div>  
                     </div>
