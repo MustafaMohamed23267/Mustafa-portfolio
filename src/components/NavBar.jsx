@@ -59,7 +59,7 @@ export const NavBar = ()=>
 
             // return nav items
             <nav id="nav" className={`fixed w-full py-5 z-50 transition-all duration-500 md:${shownav?"opacity-1":" opacity-0"} md:${isScrolled ? "py-1  backdrop-blur-md shadow-md  ":"py-5"} `}>
-                <div className=" flex items-center justify-around">
+                <div className=" flex items-center justify-around relative">
                     <div className="flex space-x-4 items-center">
                     <img className="drop-shadow-lg drop-shadow-indigo-500/40" src={mostafa} width="40px" height="40px" alt="batman"/>
                     <a href="#hero" className="text-xl font-bold cursor-pointer">
@@ -82,7 +82,7 @@ export const NavBar = ()=>
                     
 
                     {/* theme dark or light */}
-                    <div className=" bottom-0 left-0 size-16 "> <Themetoggle/></div>
+                    <div className="absolute bottom-0 left-0 size-16 "> <Themetoggle/></div>
                     
 
                     {/* Mobile */}
