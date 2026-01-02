@@ -103,7 +103,7 @@ export const ProjectsSection =()=>
                                 </div>
                                 
                                 
-                            </div>
+                            </a>
                             )}
                     </div>
                 </div>
