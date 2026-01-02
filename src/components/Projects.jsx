@@ -24,7 +24,8 @@ const myprojects=[
             }
         ],
         desc:"it is a website used for marketing online ",
-        img:ecommerce
+        img:ecommerce,
+        path:"#"
     },
      {
         name:"E-Learning",
@@ -46,7 +47,8 @@ const myprojects=[
             }
         ],
         desc:"it is a website used for learning online ",
-        img:learning
+        img:learning,
+         path:"https://courses-react-xi.vercel.app/"
     },
      {
         name:"Pharmacy",
@@ -68,7 +70,8 @@ const myprojects=[
             }
         ],
         desc:"it is a website used for buying medicine online ",
-        img:pharmacy
+        img:pharmacy,
+        path:"#"
     }
 
 ];
@@ -85,7 +88,7 @@ export const ProjectsSection =()=>
                       
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center ">
                         {myprojects.map((project,key)=>
-                            <div key={key} className="card-hover bg-card z-40 space-y-6 pb-4 ">
+                            <a href={project.path} key={key} className="card-hover bg-card z-40 space-y-6 pb-4 ">
                                 <img className="w-full h-[250px]" src={project.img}/>
                                 <div className="flex flex-col space-y-3">
                                     <h2 className="font-semibold text-lg">{project.name}</h2>
