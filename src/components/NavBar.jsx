@@ -92,14 +92,14 @@ export const NavBar = ()=>
                    <div className={` fixed inset-0 bg-background/70 backdrop-blur-md flex flex-col items-center justify-center z-40  transition-all duration-400 md:hidden ${menu? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
                 
                          <div className=" flex flex-col space-y-8">
-                         
+                         <div className="absolute top-2  md:hidden"><Themetoggle/></div> 
                         {NavItems.map(items =>
                             (
                             
                                 <a className="px-3  text-center hover:bg-indigo-500 rounded-full fill-indigo-500 drop-shadow-lg drop-shadow-indigo-500/50 duration-400" href={items.href} >{items.name}</a>
                                  
                             ))}
-                            <div className=" md:hidden"><Themetoggle/></div> 
+                            
                         </div>
                    </div>
                 </div>
