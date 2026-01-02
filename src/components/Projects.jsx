@@ -25,7 +25,8 @@ const myprojects=[
         ],
         desc:"it is a website used for marketing online ",
         img:ecommerce,
-        path:"#"
+        path:"#",
+        github:"#"
     },
      {
         name:"E-Learning",
@@ -48,7 +49,8 @@ const myprojects=[
         ],
         desc:"it is a website used for learning online ",
         img:learning,
-         path:"https://courses-react-xi.vercel.app/"
+         path:"https://courses-react-xi.vercel.app/",
+         github:"https://github.com/MustafaMohamed23267/courses-react"
     },
      {
         name:"Pharmacy",
@@ -71,7 +73,8 @@ const myprojects=[
         ],
         desc:"it is a website used for buying medicine online ",
         img:pharmacy,
-        path:"#"
+        path:"#",
+        github:"#"
     }
 
 ];
@@ -98,7 +101,7 @@ export const ProjectsSection =()=>
                                     <span>{project.desc}</span>
                                 </div>
                                 <div className=" pl-2" >
-                                    <a href="#"><Github size="30px" className=" rounded-full animate-pulse bg-primary"/></a>
+                                    <a href={project.github}><Github size="30px" className=" rounded-full animate-pulse bg-primary"/></a>
                                     
                                 </div>
                                 
