@@ -97,9 +97,9 @@ export const NavBar = ()=>
                             (
                             
                                 <a className="px-3  text-center hover:bg-indigo-500 rounded-full fill-indigo-500 drop-shadow-lg drop-shadow-indigo-500/50 duration-400" href={items.href} >{items.name}</a>
-                                 <Themetoggle/>
+                                 
                             ))}
-                             
+                             <Themetoggle/>
                         </div>
                    </div>
                 </div>
