@@ -71,6 +71,8 @@ export const NavBar = ()=>
                         </span>
                     </a></div>
 
+                    <div className=" md:hidden size-16 "> <Themetoggle/></div>
+
                     <div className="max-sm:hidden bg-white dark:bg-white/5 navbar-animation z-50 outline-1 -outline-offset-1 outline-gray-300 dark:outline-white/10 space-x-2  rounded-full p-1 ">
                         {NavItems.map(items =>
                             (
