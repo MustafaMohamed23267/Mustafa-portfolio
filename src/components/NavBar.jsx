@@ -82,7 +82,7 @@ export const NavBar = ()=>
                     
 
                     {/* theme dark or light */}
-                    <div className="absolute bottom-0 left-0 size-16 "> <Themetoggle/></div>
+                    <div className="bottom-0 left-0 size-16 "> <Themetoggle/></div>
                     
 
                     {/* Mobile */}
@@ -99,7 +99,7 @@ export const NavBar = ()=>
                                 <a className="px-3  text-center hover:bg-indigo-500 rounded-full fill-indigo-500 drop-shadow-lg drop-shadow-indigo-500/50 duration-400" href={items.href} >{items.name}</a>
                                  
                             ))}
-                             <Themetoggle/>
+                            div className="absolute bottom-0 left-0 size-16 md:hidden"> <Themetoggle/><Themetoggle/></div> 
                         </div>
                    </div>
                 </div>
