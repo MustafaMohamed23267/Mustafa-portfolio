@@ -1,7 +1,8 @@
 import { Github, GithubIcon } from "lucide-react";
 import ecommerce from "../assets/ecommerce.jpg"
 import learning from "../assets/edufree.png"
-import pharmacy from "../assets/pharmacy.jpeg"
+import entertainment from '../assets/entertainment.png'
+
 
 
 const myprojects=[
@@ -53,7 +54,7 @@ const myprojects=[
          github:"https://github.com/MustafaMohamed23267/courses-react"
     },
      {
-        name:"Pharmacy",
+        name:"Entertainment",
         tools:[
             {
                 name:"PHP"
@@ -71,10 +72,10 @@ const myprojects=[
                 name:"MYSQL"
             }
         ],
-        desc:"it is a website used for buying medicine online ",
-        img:pharmacy,
-        path:"#",
-        github:"#"
+        desc:"it is a website used for managing your movies,series and anime ",
+        img:entertainment,
+        path:"https://entertainment-react-sandy.vercel.app/",
+        github:"https://github.com/MustafaMohamed23267/Entertainment-React"
     }
 
 ];
