@@ -92,7 +92,7 @@ export const ProjectsSection =()=>
                       
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center ">
                         {myprojects.map((project,key)=>
-                            <a href={project.path} key={key} className="card-hover bg-card z-40 space-y-6 pb-4 ">
+                            <a target="_blank" href={project.path} key={key} className="card-hover bg-card z-40 space-y-6 pb-4 ">
                                 <img className="w-full h-[250px]" src={project.img}/>
                                 <div className="flex flex-col space-y-3">
                                     <h2 className="font-semibold text-lg">{project.name}</h2>
@@ -102,7 +102,7 @@ export const ProjectsSection =()=>
                                     <span>{project.desc}</span>
                                 </div>
                                 <div className=" pl-2" >
-                                    <a href={project.github}><Github size="30px" className=" rounded-full animate-pulse bg-primary"/></a>
+                                    <a target="_blank" href={project.github}><Github size="30px" className=" rounded-full animate-pulse bg-primary"/></a>
                                     
                                 </div>
                                 
