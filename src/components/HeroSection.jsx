@@ -9,7 +9,7 @@ export const HeroSection = ()=>{
                 <span className="fill-gray-500 drop-shadow-xl/50 drop-shadow-gray-500/50 text-primary fade-in" >Mustafa</span>
                 <span className="text-linear-to-r/hsl from-red-500 to-blue-600"> Mohamed</span>
             </h1>
-            <p className="text-md md:text-xl text-gray-500 moving-animation">I am a fullstack web developer I creating website using html css and reactjs framework thats the front side the back side I use PHP Laravel RestApi and MYSQL</p>
+            <p className="text-md md:text-xl text-gray-500 moving-animation">I am a Full-Stack Web Developer with expertise in HTML, CSS, and React.js on the front end, and PHP Laravel REST APIs with MySQL on the back end. I focus on building efficient, scalable, and user-friendly web applications</p>
             <div className="moving-animation-delay-2 pt-4 ">
                 <a href="#projects" className="cosmic ">
                     View My Projects

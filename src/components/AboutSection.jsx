@@ -1,5 +1,6 @@
 import { Briefcase, Code, User } from "lucide-react"
 import mustafa from '../assets/m2.jpg';
+import resume from '../assets/myresume.pdf';
 
 export const AboutSection = ()=>
     {
@@ -27,7 +28,7 @@ export const AboutSection = ()=>
                 </p >
                 <div className="space-x-4">
                     <a href="#contact" className="cosmic">Contact me</a>
-                    <a href="../../public/mycv.pdf" download className="border border-indigo-500 rounded-full p-2 hover:bg-indigo-500 hover:text-white text-indigo-500  shadow hover:shadow-2xl duration-300 cursor-pointer" >Download my CV</a>
+                    <a href={resume} download className="border border-indigo-500 rounded-full p-2 hover:bg-indigo-500 hover:text-white text-indigo-500  shadow hover:shadow-2xl duration-300 cursor-pointer" >Download my CV</a>
                 </div>
                 </div>
                 
