@@ -1,5 +1,5 @@
 import { Github, GithubIcon } from "lucide-react";
-import ecommerce from "../assets/ecommerce.jpg"
+import ecommerce from "../assets/commerce.png"
 import learning from "../assets/edufree.png"
 import entertainment from '../assets/entertainment.png'
 
@@ -26,8 +26,8 @@ const myprojects=[
         ],
         desc:"it is a website used for marketing online ",
         img:ecommerce,
-        path:"#",
-        github:"#"
+        path:"https://e-commerce-react-theta-six.vercel.app/",
+        github:"https://github.com/MustafaMohamed23267/E-Commerce-React"
     },
      {
         name:"E-Learning",
