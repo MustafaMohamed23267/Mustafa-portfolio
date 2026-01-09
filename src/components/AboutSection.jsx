@@ -1,5 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react"
-import mustafa from '../assets/m2.jpg';
+import mustafa from '../assets/m3.jpg';
 import resume from '../assets/myresume.pdf';
 
 export const AboutSection = ()=>
