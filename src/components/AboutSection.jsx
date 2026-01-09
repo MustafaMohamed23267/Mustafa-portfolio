@@ -11,7 +11,7 @@ export const AboutSection = ()=>
                     About <span className="text-primary">Mustafa</span>
                 </h2>
                 <div className="flex justify-center py-2 ">
-                    <img src={mustafa} className="w-50 h-50 rounded-full " />
+                    <img src={mustafa} className="w-50 h-50 rounded-full bg-white" />
                 </div>
 
  <div className="grid grid-col-2 md:grid-cols-2 gap-12 text-center pt-6 ">
