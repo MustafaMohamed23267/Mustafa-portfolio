@@ -49,7 +49,7 @@ export const SkillsSection = ()=>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-6">
-                    {filterskills.map((skills,key)=> <div key={key} className="bg-card p-6 rounded-lg shadow-xs card-hover ">
+                    {filterskills.map((skills,key)=> <div key={key} className="bg-card p-6 rounded-lg shadow-xs card-hover appear">
                             <div className="flex flex-col">
                             <span className=" font-semibold texl-lg">{skills.name}</span>
 

@@ -90,7 +90,7 @@ export const ProjectsSection =()=>
                     </div>
 
                       
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center ">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center appear">
                         {myprojects.map((project,key)=>
                             <a target="_blank" href={project.path} key={key} className="card-hover bg-card z-40 space-y-6 pb-4 ">
                                 <img className="w-full h-[250px]" src={project.img}/>
