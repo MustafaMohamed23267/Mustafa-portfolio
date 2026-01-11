@@ -92,7 +92,7 @@ export const ProjectsSection =()=>
                       
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center ">
                         {myprojects.map((project,key)=>
-                            <a target="_blank" href={project.path} key={key} className="card-hover appear bg-gray-950/20 dark:bg-transparent backdrop-blur-md z-40 space-y-6 pb-4 ">
+                            <a target="_blank" href={project.path} key={key} className="card-hover appear bg-linear-to-r from-teal-900/50 to-gray-900/50 dark:bg-transparent backdrop-blur-md z-40 space-y-6 pb-4 ">
                                 <img className="w-full h-[250px]" src={project.img}/>
                                 <div className="flex flex-col space-y-3">
                                     <h2 className="font-semibold text-lg">{project.name}</h2>
