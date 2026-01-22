@@ -1,5 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react"
-import mustafa from '../assets/m3.png';
+import mustafa from '../assets/m4.png';
 import resume from '../assets/myresume.pdf';
 
 export const AboutSection = ()=>
@@ -12,7 +12,7 @@ export const AboutSection = ()=>
                 </h2>
                 <div className="flex justify-center py-4  ">
                     <div className="w-50 h-50 rounded-full bg-transparent backdrop-blur-sm inset-shadow-sm dark:inset-shadow-indigo-900 shadow-xl/70 dark:shadow-indigo-900">
-                        <img src={mustafa} className="w-50 h-50 p-2 rounded-full" />
+                        <img src={mustafa} className="w-50 h-50 pt-1.5 rounded-full" />
                     </div>
                     
                 </div>
