@@ -1,5 +1,5 @@
 import { Github, GithubIcon } from "lucide-react";
-import ecommerce from "../assets/commerce.png"
+import ecommerce from "../assets/ecommerce.png"
 import learning from "../assets/edufree.png"
 import entertainment from '../assets/entertainment.png'
 
